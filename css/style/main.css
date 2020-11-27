@@ -1,5 +1,5 @@
 :root {
-  --main-color: #eb5757;
+  --main-color: #2c2828;
   --bg-color: #f4f4f4;
   --bg-content-color: #fff;
   --bg-menu: #eceef2;
@@ -843,6 +843,8 @@ overflows table td {
   padding: 0 calc(var(--space) / 2);
   top: 0;
   z-index: 10;
+  position: sticky;
+  background-color: var(--bg-content-color);
 }
 .header .header__left,
 .header .header__right {
