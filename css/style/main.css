@@ -11,7 +11,7 @@
   --title-color: #50596c;
   --border-color: rgba(0,0,0,0.1);
   --space: 3.5rem;
-  --content-width: 776px;
+  --content-width: 746px;
 }
 ::-webkit-scrollbar {
   width: 0.55rem !important;
@@ -839,7 +839,7 @@ overflows table td {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 54px;
+  height: 54px;
   padding: 0 calc(var(--space) / 2);
   top: 0;
   z-index: 10;
@@ -1075,7 +1075,7 @@ a.search-result__link:hover {
 }
 .post-side .post-side__toc .toc {
   display: none;
-  width: calc((100vw - 776px) / 2 - 12.6px);
+  width: calc((100vw - 746px) / 2 - 12.6px);
   height: calc(100vh - 54px * 2 - 20px);
   padding-left: 0.6rem;
 }
