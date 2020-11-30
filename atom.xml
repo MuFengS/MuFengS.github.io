@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>mufengs | 技术记录博客</title>
+  <title>mufengs</title>
   
   
   <link href="https://mufengs.github.io/atom.xml" rel="self"/>
@@ -213,11 +213,11 @@
     
     <category term="transition" scheme="https://mufengs.github.io/tags/transition/"/>
     
-    <category term="border-radius" scheme="https://mufengs.github.io/tags/border-radius/"/>
-    
     <category term="relative" scheme="https://mufengs.github.io/tags/relative/"/>
     
     <category term="absolute" scheme="https://mufengs.github.io/tags/absolute/"/>
+    
+    <category term="border-radius" scheme="https://mufengs.github.io/tags/border-radius/"/>
     
     <category term="text-decoration" scheme="https://mufengs.github.io/tags/text-decoration/"/>
     
@@ -275,9 +275,9 @@
     
     <category term="transition" scheme="https://mufengs.github.io/tags/transition/"/>
     
-    <category term="transform" scheme="https://mufengs.github.io/tags/transform/"/>
-    
     <category term="border-radius" scheme="https://mufengs.github.io/tags/border-radius/"/>
+    
+    <category term="transform" scheme="https://mufengs.github.io/tags/transform/"/>
     
   </entry>
   
@@ -412,6 +412,34 @@
   </entry>
   
   <entry>
+    <title>关于渐变</title>
+    <link href="https://mufengs.github.io/2020/11/17/%E5%85%B3%E4%BA%8E%E6%B8%90%E5%8F%98/"/>
+    <id>https://mufengs.github.io/2020/11/17/%E5%85%B3%E4%BA%8E%E6%B8%90%E5%8F%98/</id>
+    <published>2020-11-16T16:00:00.000Z</published>
+    <updated>2020-11-17T13:10:18.155Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于渐变"><a href="#关于渐变" class="headerlink" title="关于渐变"></a>关于渐变</h2><h3 id="线性渐变"><a href="#线性渐变" class="headerlink" title="线性渐变"></a>线性渐变</h3><ul><li>线性渐变（Linear Gradients）- 向下/向上/向左/向右/对角方向</li><li>语法<code>background-image: linear-gradient(direction, color-stop1, color-stop2, ...);</code><h3 id="径向渐变"><a href="#径向渐变" class="headerlink" title="径向渐变"></a>径向渐变</h3></li><li>径向渐变（Radial Gradients）- 由它们的中心定义</li><li>语法<code>background-image: radial-gradient(shape size at position, start-color, ..., last-color);</code><h3 id="线性渐变的使用角度"><a href="#线性渐变的使用角度" class="headerlink" title="线性渐变的使用角度"></a>线性渐变的使用角度</h3><img src="https://i.loli.net/2020/11/16/y2cZiStwYAD6IV5.png" alt="direction.png"><h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3></li><li> <code> background-image:linear-gradient(to right,red 20%, blue 50%, green 80%</code></li><li><code>background-image:radial-gradient(lightgreen 10%,lightgray 50%)</code></li><li><code>background-image:repeating-linear-gradient(lightgreen 10%,lightblue 20%)</code> 重复性线性渐变，径向渐变亦然</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;关于渐变&quot;&gt;&lt;a href=&quot;#关于渐变&quot; class=&quot;headerlink&quot; title=&quot;关于渐变&quot;&gt;&lt;/a&gt;关于渐变&lt;/h2&gt;&lt;h3 id=&quot;线性渐变&quot;&gt;&lt;a href=&quot;#线性渐变&quot; class=&quot;headerlink&quot; title=&quot;线性渐变&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    
+    
+    <category term="线性渐变" scheme="https://mufengs.github.io/tags/%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98/"/>
+    
+    <category term="径向渐变" scheme="https://mufengs.github.io/tags/%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98/"/>
+    
+    <category term="重复性渐变" scheme="https://mufengs.github.io/tags/%E9%87%8D%E5%A4%8D%E6%80%A7%E6%B8%90%E5%8F%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>文本特效和文本省略号</title>
     <link href="https://mufengs.github.io/2020/11/17/%E6%96%87%E5%AD%97%E7%89%B9%E6%95%88%E5%92%8C%E6%96%87%E6%9C%AC%E7%9C%81%E7%95%A5%E5%8F%B7/"/>
     <id>https://mufengs.github.io/2020/11/17/%E6%96%87%E5%AD%97%E7%89%B9%E6%95%88%E5%92%8C%E6%96%87%E6%9C%AC%E7%9C%81%E7%95%A5%E5%8F%B7/</id>
@@ -437,34 +465,6 @@
     <category term="text-overflow" scheme="https://mufengs.github.io/tags/text-overflow/"/>
     
     <category term="white-space" scheme="https://mufengs.github.io/tags/white-space/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于渐变</title>
-    <link href="https://mufengs.github.io/2020/11/17/%E5%85%B3%E4%BA%8E%E6%B8%90%E5%8F%98/"/>
-    <id>https://mufengs.github.io/2020/11/17/%E5%85%B3%E4%BA%8E%E6%B8%90%E5%8F%98/</id>
-    <published>2020-11-16T16:00:00.000Z</published>
-    <updated>2020-11-17T13:10:18.155Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="关于渐变"><a href="#关于渐变" class="headerlink" title="关于渐变"></a>关于渐变</h2><h3 id="线性渐变"><a href="#线性渐变" class="headerlink" title="线性渐变"></a>线性渐变</h3><ul><li>线性渐变（Linear Gradients）- 向下/向上/向左/向右/对角方向</li><li>语法<code>background-image: linear-gradient(direction, color-stop1, color-stop2, ...);</code><h3 id="径向渐变"><a href="#径向渐变" class="headerlink" title="径向渐变"></a>径向渐变</h3></li><li>径向渐变（Radial Gradients）- 由它们的中心定义</li><li>语法<code>background-image: radial-gradient(shape size at position, start-color, ..., last-color);</code><h3 id="线性渐变的使用角度"><a href="#线性渐变的使用角度" class="headerlink" title="线性渐变的使用角度"></a>线性渐变的使用角度</h3><img src="https://i.loli.net/2020/11/16/y2cZiStwYAD6IV5.png" alt="direction.png"><h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3></li><li> <code> background-image:linear-gradient(to right,red 20%, blue 50%, green 80%</code></li><li><code>background-image:radial-gradient(lightgreen 10%,lightgray 50%)</code></li><li><code>background-image:repeating-linear-gradient(lightgreen 10%,lightblue 20%)</code> 重复性线性渐变，径向渐变亦然</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;关于渐变&quot;&gt;&lt;a href=&quot;#关于渐变&quot; class=&quot;headerlink&quot; title=&quot;关于渐变&quot;&gt;&lt;/a&gt;关于渐变&lt;/h2&gt;&lt;h3 id=&quot;线性渐变&quot;&gt;&lt;a href=&quot;#线性渐变&quot; class=&quot;headerlink&quot; title=&quot;线性渐变&quot;&gt;&lt;/a</summary>
-      
-    
-    
-    
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
-    
-    
-    <category term="线性渐变" scheme="https://mufengs.github.io/tags/%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98/"/>
-    
-    <category term="径向渐变" scheme="https://mufengs.github.io/tags/%E5%BE%84%E5%90%91%E6%B8%90%E5%8F%98/"/>
-    
-    <category term="重复性渐变" scheme="https://mufengs.github.io/tags/%E9%87%8D%E5%A4%8D%E6%80%A7%E6%B8%90%E5%8F%98/"/>
     
   </entry>
   
