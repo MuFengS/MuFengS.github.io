@@ -21,30 +21,28 @@
     <!-- meta -->
 
 
-<title>何为flex布局？ | mufengs | 技术记录博客</title>
+<title>全面了解transform属性 | mufengs | 技术记录博客</title>
 
 
-    <meta name="keywords" content="flex">
+    <meta name="keywords" content="transform">
 
 
 
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="简介：flex 是一个CSS的display 属性中新添加一个值。 随着inline-flex的使用，它将使它适用的元素成为一个flex container（伸缩容器），而这个元素的每个子元素将成为 flex item（伸缩项目）。 伸缩项目将参与到flex布局中，所有由CSS Flexible Box Layout Module（CSS伸缩盒布局模型）定义的属性都能被它们使用 主轴:默认情况下">
+    <meta name="description" content="transform取值 none：默认值，即是无转换 matrix(,,,,,)：以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵 translate([, ])：指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 translateX()：指定对">
 <meta property="og:type" content="article">
-<meta property="og:title" content="何为flex布局？">
-<meta property="og:url" content="https://mufengs.github.io/2020/11/26/flex%E5%B8%83%E5%B1%80/index.html">
+<meta property="og:title" content="全面了解transform属性">
+<meta property="og:url" content="https://mufengs.github.io/2020/11/26/undefined/index.html">
 <meta property="og:site_name" content="mufengs | 技术记录博客">
-<meta property="og:description" content="简介：flex 是一个CSS的display 属性中新添加一个值。 随着inline-flex的使用，它将使它适用的元素成为一个flex container（伸缩容器），而这个元素的每个子元素将成为 flex item（伸缩项目）。 伸缩项目将参与到flex布局中，所有由CSS Flexible Box Layout Module（CSS伸缩盒布局模型）定义的属性都能被它们使用 主轴:默认情况下">
+<meta property="og:description" content="transform取值 none：默认值，即是无转换 matrix(,,,,,)：以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵 translate([, ])：指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 translateX()：指定对">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://i.loli.net/2020/11/26/Vi4CmR8uKgxdqBF.jpg">
-<meta property="article:published_time" content="2020-11-26T10:26:46.000Z">
-<meta property="article:modified_time" content="2020-11-30T04:34:24.188Z">
+<meta property="article:published_time" content="2020-11-26T09:58:00.000Z">
+<meta property="article:modified_time" content="2020-11-30T04:34:24.177Z">
 <meta property="article:author" content="mufengs">
-<meta property="article:tag" content="flex">
+<meta property="article:tag" content="transform">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://i.loli.net/2020/11/26/Vi4CmR8uKgxdqBF.jpg">
 
 
     
@@ -149,7 +147,7 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        何为flex布局？
+        全面了解transform属性
     </h1>
     <div class="post-title__meta">
         <a href="/archives/2020/11/" class="post-meta__date button">2020-11-26</a>
@@ -165,14 +163,14 @@
  
 
  
-        | 本篇文章共<span class="post-count">667字</span>，预计阅读<span class="post-count">2分钟</span>
+        | 本篇文章共<span class="post-count">774字</span>，预计阅读<span class="post-count">2分钟</span>
     </div>
 </div>
 
 
     <aside class="post-side">
         <div class="post-side__toc">
-            
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#transform%E5%8F%96%E5%80%BC"><span class="toc-number">1.</span> <span class="toc-text">transform取值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform-origin%E5%B1%9E%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">transform-origin属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform3D"><span class="toc-number">3.</span> <span class="toc-text">transform3D</span></a></li></ol>
         </div>
     </aside>
     <a class="btn-toc button" id="btn-toc" tabindex="0">
@@ -182,112 +180,56 @@
     </a>
     <div class="toc-menus" id="toc-menus">
         <div class="toc-title">Article Directory</div>
-        
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#transform%E5%8F%96%E5%80%BC"><span class="toc-number">1.</span> <span class="toc-text">transform取值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform-origin%E5%B1%9E%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">transform-origin属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform3D"><span class="toc-number">3.</span> <span class="toc-text">transform3D</span></a></li></ol>
     </div>
 
 
 <article class="post content-card">
-    <div class="post__header">
-    
-        <div class="post-thumbnail" style="background-image: url('https://i.loli.net/2020/11/26/Vi4CmR8uKgxdqBF.jpg');"></div>
-    
-</div>
+    <div class="post__header"></div>
     <div class="post__content">
-        <blockquote>
-<p>简介：flex 是一个CSS的display 属性中新添加一个值。 随着inline-flex的使用，它将使它适用的元素成为一个flex container（伸缩容器），而这个元素的每个子元素将成为 flex item（伸缩项目）。</p>
-<p>伸缩项目将参与到flex布局中，所有由CSS Flexible Box Layout Module（CSS伸缩盒布局模型）定义的属性都能被它们使用</p>
-<p>主轴:默认情况下，主轴是x轴，侧轴是y轴，项目则排列在主轴方向上</p>
-<p>flex 属性是flex-grow, flex-shrink 和 flex-basis 属性的简写。</p>
-<p>参考文章 <a target="_blank" rel="noopener" href="http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html">Flex布局教程</a></p>
+        <h3 id="transform取值"><a href="#transform取值" class="headerlink" title="transform取值"></a>transform取值</h3><blockquote>
+<p>none：默认值，即是无转换</p>
+<p>matrix(<number>,<number>,<number>,<number>,<number>,<number>)：<br>以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵</p>
+<p>translate(<length>[, <length>])：<br>指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0</p>
+<p>translateX(<length>)：<br>指定对象X轴（水平方向）的平移</p>
+<p>translateY(<length>)：<br>指定对象Y轴（垂直方向）的平移</p>
+<p>rotate(<angle>)：<br>指定对象的2D rotation（2D旋转），需先有transform-origin属性的定义</p>
+<p>scale(<number>[, <number>])：<br>指定对象的2D scale（2D缩放）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认取第一个参数的值</p>
+<p>scaleX(<number>)：<br>指定对象X轴的（水平方向）缩放</p>
+<p>scaleY(<number>)：<br>指定对象Y轴的（垂直方向）缩放</p>
+<p>skew(<angle> [, <angle>])：<br>指定对象skew transformation（斜切扭曲）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0</p>
+<p>skewX(<angle>)：<br>指定对象X轴的（水平方向）扭曲</p>
+<p>skewY(<angle>)：<br>指定对象Y轴的（垂直方向）扭曲</p>
 </blockquote>
-<p>flex布局新、旧版属性对比</p>
-<table>
-<thead>
-<tr>
-<th>作用于</th>
-<th>属性</th>
-<th>新版flex</th>
-<th>旧版flex</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>容器上</td>
-<td>语法</td>
-<td>display:-webkit-flex/flex</td>
-<td>display:-webkit-box</td>
-<td>/</td>
-</tr>
-<tr>
-<td>容器上</td>
-<td>主轴<br>方向</td>
-<td>flex-direction:<br>row/row-reverse<br>column/column-reverse</td>
-<td>-webkit-box-orient:<br>horizonal/vertical<br>-webkit-box-direction:<br>normal/reverse</td>
-<td>主轴：x轴/y轴<br>侧轴：与主轴垂直的另外一轴</td>
-</tr>
-<tr>
-<td>容器上</td>
-<td>主轴<br>对齐<br>方式</td>
-<td>justify-content:<br>flex-start/flex-end/center<br>space-between/space-around</td>
-<td>-webkit-box-pack:<br>start/end/center/justify</td>
-<td>富余空间：取值为flex-start或start时<br>富余空间在主轴的正方向上<br>取值为flex-end或end时<br>富余空间在主轴的反方向上</td>
-</tr>
-<tr>
-<td>容器上</td>
-<td>侧轴<br>对齐<br>方式</td>
-<td>align-items:<br>flex-start/flex-end<br>center/baseline/strech</td>
-<td>-webkit-box-align:<br>start/end/center</td>
-<td>富余空间：取值为flex-start或start时<br>富余空间在主轴的正方向上<br>取值为flex-end或end时<br>富余空间在主轴的反方向上</td>
-</tr>
-<tr>
-<td>项目上</td>
-<td>富余<br>空间</td>
-<td>flex-grow:0/1/auto</td>
-<td>-webkit-box-flex:0/1</td>
-<td>flex-grow定义项目的放大比例</td>
-</tr>
-</tbody></table>
-<p>新版flex新增特性</p>
-<table>
-<thead>
-<tr>
-<th>作用于</th>
-<th>属性</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>容器上</td>
-<td>flex-wrap:nowrap/warp/wrap-reverse</td>
-<td>默认单行排列，宽度压缩时项目缩小<br>取值非nowrap时，即是拥有侧轴方向<br>wrap 侧轴正方向 <br>wrap-reverse 侧轴反方向</td>
-</tr>
-<tr>
-<td>容器上</td>
-<td>align-content:start/end/center/space-between/space-around-strech</td>
-<td>多行对齐时的整体堆砌方式</td>
-</tr>
-<tr>
-<td>容器上</td>
-<td>flex-grow:flex-direction+flex-wrap</td>
-<td>决定着主轴、侧轴的方向</td>
-</tr>
-<tr>
-<td>项目上</td>
-<td>order:number</td>
-<td>给项目标记数字，控制项目顺序</td>
-</tr>
-<tr>
-<td>项目上</td>
-<td>align-self: auto/start/end/center/space-between/space-around-strech</td>
-<td>除去容器的align-items的设定，只管理自身的侧轴对齐方式</td>
-</tr>
-<tr>
-<td>项目上</td>
-<td>flow-basis:auto/0/1/auto<br>flex-shrink:1/0/auto</td>
-<td>flex-basis属性定义了在分配多余空间之前，<br>项目占据的主轴空间（main size）<br>它可以设为跟width或height属性一样的值，<br>将项目占据固定空间<br> flex-shrink定义项目的缩小比例</td>
-</tr>
-</tbody></table>
-<details open><summary>等宽布局</summary><div class="fold-content"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">.wrapper &#123;</span><br><span class="line">  width:300px;</span><br><span class="line">  height:300px;</span><br><span class="line">  display:flex;   </span><br><span class="line">  justify-content:flex-start;</span><br><span class="line">&#125;</span><br><span class="line">.innerBox &#123;</span><br><span class="line">  height:50px;</span><br><span class="line">  flex-shrink:1 /*无效设定，不考虑*/</span><br><span class="line">  flex-grow:1;</span><br><span class="line">  flex-basis:0%;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div></details>
+<h3 id="transform-origin属性"><a href="#transform-origin属性" class="headerlink" title="transform-origin属性"></a>transform-origin属性</h3><p>定义：transform-origin 属性允许您改变被转换元素的位置(即是参考点)，<br>需要了解的是，在transform中的存在的坐标系为，X轴向右，Y轴向下，Z轴朝向屏幕方向</p>
+<p>取值：</p>
+<ul>
+<li>默认值：50% 50% 0 ，基点即是2D所在图形的几何中心，在3D中即是绕着z轴旋转</li>
+<li>取百分值%，依据坐标轴位置取百分值</li>
+<li>length，依据坐标轴的位置取距离值</li>
+<li>translate取值不受该属性的影响</li>
+<li>取方向值，left,right,top,bottom<ul>
+<li>center(即是center center或50% 50%)</li>
+<li>top(即是top center或50% 0)</li>
+<li>right(即是right center或100% 50%)</li>
+<li>bottom(即是bottom center或50% 100%)</li>
+<li>left(即是left center或0 50%)</li>
+<li>top left(即是0% 0%)</li>
+<li>top right(即是100% 0%)</li>
+<li>bottom left(即是0% 100%)</li>
+<li>bottom right(即是100% 100%)</li>
+</ul>
+</li>
+</ul>
+<h3 id="transform3D"><a href="#transform3D" class="headerlink" title="transform3D"></a>transform3D</h3><ul>
+<li>transform3D,是在translate2D的基础上增加z轴方向上的维度，再通过增加某些3D属性，营造出3D的感觉</li>
+<li>rotate3D,默认情况下rotate的旋转中心是绕着z轴转动的转动方向依据顺正逆负，rotate( deg)=rotatez( deg),rotatex( deg)即是绕x轴由外往内旋转，rotatey( deg)即是绕y轴反向翻书方向旋转</li>
+<li>transform:rotate3D(1,1,1,360deg);即是绕着三维空间的正方向距离起始位置较近的地方旋转</li>
+<li>transform:translatez(100px)  对于x/y轴平移可以使用占用自身尺寸的百分比，z轴则只能使用length      </li>
+<li>perspective景深即是我们眼睛注视屏幕的距离，它的作用是搭建舞台。它是一个不可继承的属性，但它可以作用于所有的后代元素。景深越大，灭点（随视角逐渐消失的点）越远，变形越小；景深越小，灭点越近，变形越大   </li>
+<li>transform-style的作用亦是搭建舞台，使3D舞台有层次感，该属性值仅作用于父元素     </li>
+</ul>
+
     </div>
     
     <div class="post__license">
@@ -298,20 +240,20 @@
             <strong>
                 Permalink: 
             </strong>
-            <a href="https://mufengs.github.io/2020/11/26/flex%E5%B8%83%E5%B1%80/">https://mufengs.github.io/2020/11/26/flex%E5%B8%83%E5%B1%80/</a>
+            <a href="https://mufengs.github.io/2020/11/26/undefined/">https://mufengs.github.io/2020/11/26/undefined/</a>
         </p>
         
     </div>
  
     <div class="post-footer__meta"><p>updated at 2020-11-30</p></div> 
-    <div class="post-meta__cats"><a href="/categories/CSS3/" class="post-cats__link button">CSS3</a><a href="/tags/flex/" class="post-tags__link button"># flex</a></div> 
+    <div class="post-meta__cats"><a href="/categories/CSS3/" class="post-cats__link button">CSS3</a><a href="/tags/transform/" class="post-tags__link button"># transform</a></div> 
 </article>
 
 
     <div class="nav">
         <div class="nav__prev">
             
-                <a href="/2020/11/27/HEXO%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0RSS/" class="nav__link">
+                <a href="/2020/11/26/undefined/" class="nav__link">
                     <div>
                         <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
                     </div>
@@ -320,7 +262,7 @@
                             Previous Post
                         </div>
                         <div class="nav__title">
-                            HEXO &amp; 给博客添加RSS
+                            何为flex布局？
                         </div>
                     </div>
                 </a>
@@ -328,13 +270,13 @@
         </div>
         <div class="nav__next">
             
-                <a href="/2020/11/26/Transform%E5%8F%98%E6%8D%A2/" class="nav__link">
+                <a href="/2020/11/21/undefined/" class="nav__link">
                     <div>
                         <div class="nav__label">
                             Next Post
                         </div>
                         <div class="nav__title">
-                            全面了解transform属性
+                            CSS3 resize属性
                         </div>
                     </div>
                     <div>

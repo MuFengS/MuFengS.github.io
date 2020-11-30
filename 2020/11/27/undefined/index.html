@@ -21,28 +21,30 @@
     <!-- meta -->
 
 
-<title>全面了解transform属性 | mufengs | 技术记录博客</title>
+<title>HEXO &amp; 给博客添加RSS | mufengs | 技术记录博客</title>
 
 
-    <meta name="keywords" content="transform">
+    <meta name="keywords" content="hexo主题配置">
 
 
 
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="transform取值 none：默认值，即是无转换 matrix(,,,,,)：以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵 translate([, ])：指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 translateX()：指定对">
+    <meta name="description" content="Hexo是一个简洁、高效、易用的博客框架，同时它拥有十分丰富的主题环境，本次我们所谈到的是cards主题，但是该主题的原生环境里没有相关的rss配置，所以我们需要采用手动添加的方式，进而实现rss功能的添加 安装feed插件cnpm install hexo-generator-feed 配置 _ config.yml文件，启用插件配置博客工程目录下的 _ config.yml文件12345678">
 <meta property="og:type" content="article">
-<meta property="og:title" content="全面了解transform属性">
-<meta property="og:url" content="https://mufengs.github.io/2020/11/26/Transform%E5%8F%98%E6%8D%A2/index.html">
+<meta property="og:title" content="HEXO &amp; 给博客添加RSS">
+<meta property="og:url" content="https://mufengs.github.io/2020/11/27/undefined/index.html">
 <meta property="og:site_name" content="mufengs | 技术记录博客">
-<meta property="og:description" content="transform取值 none：默认值，即是无转换 matrix(,,,,,)：以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵 translate([, ])：指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0 translateX()：指定对">
+<meta property="og:description" content="Hexo是一个简洁、高效、易用的博客框架，同时它拥有十分丰富的主题环境，本次我们所谈到的是cards主题，但是该主题的原生环境里没有相关的rss配置，所以我们需要采用手动添加的方式，进而实现rss功能的添加 安装feed插件cnpm install hexo-generator-feed 配置 _ config.yml文件，启用插件配置博客工程目录下的 _ config.yml文件12345678">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-11-26T09:58:00.000Z">
-<meta property="article:modified_time" content="2020-11-30T04:34:24.177Z">
+<meta property="og:image" content="https://i.loli.net/2020/11/27/CUZ6KXcRBTdjIGH.jpg">
+<meta property="article:published_time" content="2020-11-27T09:58:54.000Z">
+<meta property="article:modified_time" content="2020-11-30T04:34:24.174Z">
 <meta property="article:author" content="mufengs">
-<meta property="article:tag" content="transform">
+<meta property="article:tag" content="hexo主题配置">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://i.loli.net/2020/11/27/CUZ6KXcRBTdjIGH.jpg">
 
 
     
@@ -147,12 +149,12 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        全面了解transform属性
+        HEXO &amp; 给博客添加RSS
     </h1>
     <div class="post-title__meta">
-        <a href="/archives/2020/11/" class="post-meta__date button">2020-11-26</a>
+        <a href="/archives/2020/11/" class="post-meta__date button">2020-11-27</a>
         
-    <span class="separate-dot"></span><a href="/categories/CSS3/" class="button">CSS3</a>
+    <span class="separate-dot"></span><a href="/categories/HEXO/" class="button">HEXO</a>
 
  
         
@@ -163,14 +165,14 @@
  
 
  
-        | 本篇文章共<span class="post-count">774字</span>，预计阅读<span class="post-count">2分钟</span>
+        | 本篇文章共<span class="post-count">247字</span>，预计阅读<span class="post-count">1分钟</span>
     </div>
 </div>
 
 
     <aside class="post-side">
         <div class="post-side__toc">
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#transform%E5%8F%96%E5%80%BC"><span class="toc-number">1.</span> <span class="toc-text">transform取值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform-origin%E5%B1%9E%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">transform-origin属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform3D"><span class="toc-number">3.</span> <span class="toc-text">transform3D</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85feed%E6%8F%92%E4%BB%B6"><span class="toc-number">1.</span> <span class="toc-text">安装feed插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE-config-yml%E6%96%87%E4%BB%B6%EF%BC%8C%E5%90%AF%E7%94%A8%E6%8F%92%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">配置 _ config.yml文件，启用插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E6%88%90rss"><span class="toc-number">3.</span> <span class="toc-text">生成rss</span></a></li></ol>
         </div>
     </aside>
     <a class="btn-toc button" id="btn-toc" tabindex="0">
@@ -180,54 +182,29 @@
     </a>
     <div class="toc-menus" id="toc-menus">
         <div class="toc-title">Article Directory</div>
-        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#transform%E5%8F%96%E5%80%BC"><span class="toc-number">1.</span> <span class="toc-text">transform取值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform-origin%E5%B1%9E%E6%80%A7"><span class="toc-number">2.</span> <span class="toc-text">transform-origin属性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transform3D"><span class="toc-number">3.</span> <span class="toc-text">transform3D</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85feed%E6%8F%92%E4%BB%B6"><span class="toc-number">1.</span> <span class="toc-text">安装feed插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE-config-yml%E6%96%87%E4%BB%B6%EF%BC%8C%E5%90%AF%E7%94%A8%E6%8F%92%E4%BB%B6"><span class="toc-number">2.</span> <span class="toc-text">配置 _ config.yml文件，启用插件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E6%88%90rss"><span class="toc-number">3.</span> <span class="toc-text">生成rss</span></a></li></ol>
     </div>
 
 
 <article class="post content-card">
-    <div class="post__header"></div>
+    <div class="post__header">
+    
+        <div class="post-thumbnail" style="background-image: url('https://i.loli.net/2020/11/27/CUZ6KXcRBTdjIGH.jpg');"></div>
+    
+</div>
     <div class="post__content">
-        <h3 id="transform取值"><a href="#transform取值" class="headerlink" title="transform取值"></a>transform取值</h3><blockquote>
-<p>none：默认值，即是无转换</p>
-<p>matrix(<number>,<number>,<number>,<number>,<number>,<number>)：<br>以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵</p>
-<p>translate(<length>[, <length>])：<br>指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0</p>
-<p>translateX(<length>)：<br>指定对象X轴（水平方向）的平移</p>
-<p>translateY(<length>)：<br>指定对象Y轴（垂直方向）的平移</p>
-<p>rotate(<angle>)：<br>指定对象的2D rotation（2D旋转），需先有transform-origin属性的定义</p>
-<p>scale(<number>[, <number>])：<br>指定对象的2D scale（2D缩放）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认取第一个参数的值</p>
-<p>scaleX(<number>)：<br>指定对象X轴的（水平方向）缩放</p>
-<p>scaleY(<number>)：<br>指定对象Y轴的（垂直方向）缩放</p>
-<p>skew(<angle> [, <angle>])：<br>指定对象skew transformation（斜切扭曲）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0</p>
-<p>skewX(<angle>)：<br>指定对象X轴的（水平方向）扭曲</p>
-<p>skewY(<angle>)：<br>指定对象Y轴的（垂直方向）扭曲</p>
-</blockquote>
-<h3 id="transform-origin属性"><a href="#transform-origin属性" class="headerlink" title="transform-origin属性"></a>transform-origin属性</h3><p>定义：transform-origin 属性允许您改变被转换元素的位置(即是参考点)，<br>需要了解的是，在transform中的存在的坐标系为，X轴向右，Y轴向下，Z轴朝向屏幕方向</p>
-<p>取值：</p>
-<ul>
-<li>默认值：50% 50% 0 ，基点即是2D所在图形的几何中心，在3D中即是绕着z轴旋转</li>
-<li>取百分值%，依据坐标轴位置取百分值</li>
-<li>length，依据坐标轴的位置取距离值</li>
-<li>translate取值不受该属性的影响</li>
-<li>取方向值，left,right,top,bottom<ul>
-<li>center(即是center center或50% 50%)</li>
-<li>top(即是top center或50% 0)</li>
-<li>right(即是right center或100% 50%)</li>
-<li>bottom(即是bottom center或50% 100%)</li>
-<li>left(即是left center或0 50%)</li>
-<li>top left(即是0% 0%)</li>
-<li>top right(即是100% 0%)</li>
-<li>bottom left(即是0% 100%)</li>
-<li>bottom right(即是100% 100%)</li>
-</ul>
-</li>
-</ul>
-<h3 id="transform3D"><a href="#transform3D" class="headerlink" title="transform3D"></a>transform3D</h3><ul>
-<li>transform3D,是在translate2D的基础上增加z轴方向上的维度，再通过增加某些3D属性，营造出3D的感觉</li>
-<li>rotate3D,默认情况下rotate的旋转中心是绕着z轴转动的转动方向依据顺正逆负，rotate( deg)=rotatez( deg),rotatex( deg)即是绕x轴由外往内旋转，rotatey( deg)即是绕y轴反向翻书方向旋转</li>
-<li>transform:rotate3D(1,1,1,360deg);即是绕着三维空间的正方向距离起始位置较近的地方旋转</li>
-<li>transform:translatez(100px)  对于x/y轴平移可以使用占用自身尺寸的百分比，z轴则只能使用length      </li>
-<li>perspective景深即是我们眼睛注视屏幕的距离，它的作用是搭建舞台。它是一个不可继承的属性，但它可以作用于所有的后代元素。景深越大，灭点（随视角逐渐消失的点）越远，变形越小；景深越小，灭点越近，变形越大   </li>
-<li>transform-style的作用亦是搭建舞台，使3D舞台有层次感，该属性值仅作用于父元素     </li>
+        <p>Hexo是一个简洁、高效、易用的博客框架，同时它拥有十分丰富的主题环境，本次我们所谈到的是cards主题，但是该主题的原生环境里没有相关的rss配置，所以我们需要采用手动添加的方式，进而实现rss功能的添加</p>
+<h3 id="安装feed插件"><a href="#安装feed插件" class="headerlink" title="安装feed插件"></a>安装feed插件</h3><p><code>cnpm install hexo-generator-feed</code></p>
+<h3 id="配置-config-yml文件，启用插件"><a href="#配置-config-yml文件，启用插件" class="headerlink" title="配置 _ config.yml文件，启用插件"></a>配置 _ config.yml文件，启用插件</h3><details open><summary>配置博客工程目录下的 _ config.yml文件</summary><div class="fold-content"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#Extensions</span><br><span class="line">plugins:</span><br><span class="line">    hexo-generator-feed</span><br><span class="line">#Feed Atom</span><br><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br></pre></td></tr></table></figure></div></details>
+
+<details open><summary>配置theme/cards主题中的 _ config.yml文件</summary><div class="fold-content"><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">menu: </span><br><span class="line">    - name: 首页</span><br><span class="line">      url: &#x2F;</span><br><span class="line">    - name: 标签</span><br><span class="line">      url: &#x2F;tags&#x2F;</span><br><span class="line">    - name: 分类</span><br><span class="line">      url: &#x2F;categories&#x2F;</span><br><span class="line">    - name: 归档</span><br><span class="line">      url: &#x2F;archives&#x2F;</span><br><span class="line">    - name: RSS</span><br><span class="line">      url: &#x2F;atom.xml</span><br><span class="line"></span><br></pre></td></tr></table></figure></div></details>
+
+<h3 id="生成rss"><a href="#生成rss" class="headerlink" title="生成rss"></a>生成rss</h3><ul>
+<li><code>hexo clean</code>清除缓存</li>
+<li><code>hexo generate</code>生成静态文件</li>
+<li><code>hexo deploy</code>部署网站</li>
+<li><code>hexo server</code>启动服务器，即可在本地查看效果</li>
+<li>复制菜单栏RSS项的链接，在rss阅读器中成功添加链接即可收到文章推送</li>
 </ul>
 
     </div>
@@ -240,20 +217,20 @@
             <strong>
                 Permalink: 
             </strong>
-            <a href="https://mufengs.github.io/2020/11/26/Transform%E5%8F%98%E6%8D%A2/">https://mufengs.github.io/2020/11/26/Transform%E5%8F%98%E6%8D%A2/</a>
+            <a href="https://mufengs.github.io/2020/11/27/undefined/">https://mufengs.github.io/2020/11/27/undefined/</a>
         </p>
         
     </div>
  
     <div class="post-footer__meta"><p>updated at 2020-11-30</p></div> 
-    <div class="post-meta__cats"><a href="/categories/CSS3/" class="post-cats__link button">CSS3</a><a href="/tags/transform/" class="post-tags__link button"># transform</a></div> 
+    <div class="post-meta__cats"><a href="/categories/HEXO/" class="post-cats__link button">HEXO</a><a href="/tags/hexo%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" class="post-tags__link button"># hexo主题配置</a></div> 
 </article>
 
 
     <div class="nav">
         <div class="nav__prev">
             
-                <a href="/2020/11/26/flex%E5%B8%83%E5%B1%80/" class="nav__link">
+                <a href="/2020/11/28/undefined/" class="nav__link">
                     <div>
                         <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
                     </div>
@@ -262,7 +239,7 @@
                             Previous Post
                         </div>
                         <div class="nav__title">
-                            何为flex布局？
+                            HEXO &amp; CARDS主题进阶配置
                         </div>
                     </div>
                 </a>
@@ -270,13 +247,13 @@
         </div>
         <div class="nav__next">
             
-                <a href="/2020/11/21/CSS3%20resize%E5%B1%9E%E6%80%A7/" class="nav__link">
+                <a href="/2020/11/26/undefined/" class="nav__link">
                     <div>
                         <div class="nav__label">
                             Next Post
                         </div>
                         <div class="nav__title">
-                            CSS3 resize属性
+                            何为flex布局？
                         </div>
                     </div>
                     <div>
