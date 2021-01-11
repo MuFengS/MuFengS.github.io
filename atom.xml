@@ -6,7 +6,7 @@
   <link href="https://mufengs.github.io/atom.xml" rel="self"/>
   
   <link href="https://mufengs.github.io/"/>
-  <updated>2021-01-11T11:03:41.659Z</updated>
+  <updated>2021-01-11T11:07:32.032Z</updated>
   <id>https://mufengs.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://mufengs.github.io/posts/f2800037.html"/>
     <id>https://mufengs.github.io/posts/f2800037.html</id>
     <published>2021-01-11T10:42:16.000Z</published>
-    <updated>2021-01-11T11:03:41.659Z</updated>
+    <updated>2021-01-11T11:07:32.032Z</updated>
     
     <content type="html"><![CDATA[<p>模块化：将代码拆分为独立的块，然后将这些块连接起来通过模块模式来实现。使用模块化的方式更加方便代码的维护，使代码更利于复用</p><a id="more"></a><h2 id="模块化模式"><a href="#模块化模式" class="headerlink" title="模块化模式"></a>模块化模式</h2><p>这种模式背后的思想很简单：把逻辑分块，各自封装，相互独立，每个块决定对外暴露什么，同时自行决定引入执行哪些外部代码。</p><p>实际操作中，将不同的模块用单独的js文件封装，(ES6以前)通过exports.property的方式向外输出指定代码。又通过require(文件路径)的方式引入文件。</p><h2 id="CommonJs"><a href="#CommonJs" class="headerlink" title="CommonJs"></a>CommonJs</h2><p>在ES6模块化规范推出之前，浏览器原生不支持模块的行为，ECMAScript同样不支持模块。社区制定了一些模块加载方案，最主要的有 CommonJS 和 AMD 两种。前者用于服务器，后者用于浏览器。</p><p>CommonJs主要在服务器端实现代码模块化组织，所以在Node.js中采用 CommonJS 模块规范<br>也可以定义浏览器中使用的模块依赖，CommonJs语法不能在浏览器中直接运行</p><p>模块依赖</p><p>CommonJs模块定义使用require( )传递一个文件路径来指定依赖，返回一个对象。即是指定引入哪些执行的代码，node会根据该路径引入模块，如果使用相对路径，必须以 . 或者 . . 开头</p><p>模块定义</p><p>在每一个模块定义的代码都是在包装在一个函数中，所以这些实际上在函数内部的变量无法在外部得以访问。而在CommonJs中使用exports对象定义自己的公共API，即使定义那些向外暴露的代码</p><p>模块标识</p><p>使用require( )引入外部模块的方式就是利用模块标识<br>核心模块：模块名字作为标识<br>文件模块：用户自己创建的模块，要引入文件的路径</p><h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 01.js 即是模块01</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">&#x27;hello world!&#x27;</span>)</span><br><span class="line"><span class="built_in">exports</span>.a=<span class="number">35</span>,</span><br><span class="line"><span class="built_in">exports</span>.one=<span class="function"><span class="keyword">function</span>(<span class="params">a,b</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> a+b</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 02.js，即是模块02</span></span><br><span class="line"><span class="keyword">let</span> sa=<span class="built_in">require</span>(<span class="string">&#x27;./01&#x27;</span>);       <span class="comment">//引入模块01，01属于文件模块，此处使用的是文件地址的相对路径</span></span><br><span class="line"><span class="built_in">console</span>.log(sa)             <span class="comment">//require()返回的是一个对象 &#123; a: 35, one: [Function (anonymous)] &#125;</span></span><br><span class="line"><span class="built_in">console</span>.log(sa.one(<span class="number">32</span>,<span class="number">326</span>))   <span class="comment">//调用模块a中的one()方法，前提是one()方法要设置向外暴露</span></span><br><span class="line"><span class="keyword">let</span> f=<span class="built_in">require</span>(<span class="string">&#x27;fs&#x27;</span>)           <span class="comment">//核心模块，node内置的，模块标识直接使用模块名称即可</span></span><br><span class="line"><span class="built_in">console</span>.log(f)</span><br></pre></td></tr></table></figure><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>ES6 在语言标准的层面上，实现了模块功能，而且实现得相当简单，完全可以取代 CommonJS 和 AMD 规范，成为浏览器和服务器通用的模块解决方案。</p><p>实际中考虑和使用较多的是ES6模块化功能</p>]]></content>
     
@@ -32,6 +32,8 @@
     
     <category term="ES6" scheme="https://mufengs.github.io/categories/ES6/"/>
     
+    
+    <category term="模块化" scheme="https://mufengs.github.io/tags/%E6%A8%A1%E5%9D%97%E5%8C%96/"/>
     
   </entry>
   
