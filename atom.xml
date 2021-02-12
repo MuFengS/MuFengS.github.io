@@ -453,11 +453,11 @@
     
     <category term="transition" scheme="https://mufengs.github.io/tags/transition/"/>
     
-    <category term="border-radius" scheme="https://mufengs.github.io/tags/border-radius/"/>
-    
     <category term="relative" scheme="https://mufengs.github.io/tags/relative/"/>
     
     <category term="absolute" scheme="https://mufengs.github.io/tags/absolute/"/>
+    
+    <category term="border-radius" scheme="https://mufengs.github.io/tags/border-radius/"/>
     
     <category term="text-decoration" scheme="https://mufengs.github.io/tags/text-decoration/"/>
     
