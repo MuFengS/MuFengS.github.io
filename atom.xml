@@ -3,11 +3,11 @@
   <title>MooFing</title>
   
   
-  <link href="https://mufengs.github.io/atom.xml" rel="self"/>
+  <link href="https://moofing.gitee.io/atom.xml" rel="self"/>
   
-  <link href="https://mufengs.github.io/"/>
+  <link href="https://moofing.gitee.io/"/>
   <updated>2021-02-16T14:41:49.549Z</updated>
-  <id>https://mufengs.github.io/</id>
+  <id>https://moofing.gitee.io/</id>
   
   <author>
     <name>moofing</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>code moonlight &amp;&amp; general carousel</title>
-    <link href="https://mufengs.github.io/posts/b3a983de.html"/>
-    <id>https://mufengs.github.io/posts/b3a983de.html</id>
+    <link href="https://moofing.gitee.io/posts/b3a983de.html"/>
+    <id>https://moofing.gitee.io/posts/b3a983de.html</id>
     <published>2021-02-16T14:17:23.000Z</published>
     <updated>2021-02-16T14:41:49.549Z</updated>
     
@@ -30,17 +30,17 @@
     
     
     
-    <category term="practice" scheme="https://mufengs.github.io/categories/practice/"/>
+    <category term="practice" scheme="https://moofing.gitee.io/categories/practice/"/>
     
     
-    <category term="carousel" scheme="https://mufengs.github.io/tags/carousel/"/>
+    <category term="carousel" scheme="https://moofing.gitee.io/tags/carousel/"/>
     
   </entry>
   
   <entry>
     <title>code moonlight &amp; basic navigation</title>
-    <link href="https://mufengs.github.io/posts/e58a9993.html"/>
-    <id>https://mufengs.github.io/posts/e58a9993.html</id>
+    <link href="https://moofing.gitee.io/posts/e58a9993.html"/>
+    <id>https://moofing.gitee.io/posts/e58a9993.html</id>
     <published>2021-02-12T08:18:13.000Z</published>
     <updated>2021-02-12T08:35:52.202Z</updated>
     
@@ -51,17 +51,17 @@
     
     
     
-    <category term="practice" scheme="https://mufengs.github.io/categories/practice/"/>
+    <category term="practice" scheme="https://moofing.gitee.io/categories/practice/"/>
     
     
-    <category term="navigation" scheme="https://mufengs.github.io/tags/navigation/"/>
+    <category term="navigation" scheme="https://moofing.gitee.io/tags/navigation/"/>
     
   </entry>
   
   <entry>
     <title>Vue &amp; todoList实例</title>
-    <link href="https://mufengs.github.io/posts/ff35be38.html"/>
-    <id>https://mufengs.github.io/posts/ff35be38.html</id>
+    <link href="https://moofing.gitee.io/posts/ff35be38.html"/>
+    <id>https://moofing.gitee.io/posts/ff35be38.html</id>
     <published>2021-02-04T13:52:55.000Z</published>
     <updated>2021-02-04T14:25:23.659Z</updated>
     
@@ -72,15 +72,15 @@
     
     
     
-    <category term="Vue" scheme="https://mufengs.github.io/categories/Vue/"/>
+    <category term="Vue" scheme="https://moofing.gitee.io/categories/Vue/"/>
     
     
   </entry>
   
   <entry>
     <title>CommonJs规范</title>
-    <link href="https://mufengs.github.io/posts/f2800037.html"/>
-    <id>https://mufengs.github.io/posts/f2800037.html</id>
+    <link href="https://moofing.gitee.io/posts/f2800037.html"/>
+    <id>https://moofing.gitee.io/posts/f2800037.html</id>
     <published>2021-01-11T10:42:16.000Z</published>
     <updated>2021-01-11T11:07:32.032Z</updated>
     
@@ -91,17 +91,17 @@
     
     
     
-    <category term="ES6" scheme="https://mufengs.github.io/categories/ES6/"/>
+    <category term="ES6" scheme="https://moofing.gitee.io/categories/ES6/"/>
     
     
-    <category term="模块化" scheme="https://mufengs.github.io/tags/%E6%A8%A1%E5%9D%97%E5%8C%96/"/>
+    <category term="模块化" scheme="https://moofing.gitee.io/tags/%E6%A8%A1%E5%9D%97%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>使用Babel转码器转码ES6</title>
-    <link href="https://mufengs.github.io/posts/9ec7c548.html"/>
-    <id>https://mufengs.github.io/posts/9ec7c548.html</id>
+    <link href="https://moofing.gitee.io/posts/9ec7c548.html"/>
+    <id>https://moofing.gitee.io/posts/9ec7c548.html</id>
     <published>2021-01-06T16:24:20.000Z</published>
     <updated>2021-01-06T16:48:17.277Z</updated>
     
@@ -113,15 +113,15 @@
     
     
     
-    <category term="ES6" scheme="https://mufengs.github.io/categories/ES6/"/>
+    <category term="ES6" scheme="https://moofing.gitee.io/categories/ES6/"/>
     
     
   </entry>
   
   <entry>
     <title>Git基础使用总结</title>
-    <link href="https://mufengs.github.io/posts/b93f88f2.html"/>
-    <id>https://mufengs.github.io/posts/b93f88f2.html</id>
+    <link href="https://moofing.gitee.io/posts/b93f88f2.html"/>
+    <id>https://moofing.gitee.io/posts/b93f88f2.html</id>
     <published>2020-12-15T14:07:49.000Z</published>
     <updated>2020-12-15T14:46:42.499Z</updated>
     
@@ -132,17 +132,17 @@
     
     
     
-    <category term="Git" scheme="https://mufengs.github.io/categories/Git/"/>
+    <category term="Git" scheme="https://moofing.gitee.io/categories/Git/"/>
     
     
-    <category term="git基础总结" scheme="https://mufengs.github.io/tags/git%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/"/>
+    <category term="git基础总结" scheme="https://moofing.gitee.io/tags/git%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>自定义栅格系统与Bootstrap.css</title>
-    <link href="https://mufengs.github.io/posts/ab8f8277.html"/>
-    <id>https://mufengs.github.io/posts/ab8f8277.html</id>
+    <link href="https://moofing.gitee.io/posts/ab8f8277.html"/>
+    <id>https://moofing.gitee.io/posts/ab8f8277.html</id>
     <published>2020-12-09T16:08:02.000Z</published>
     <updated>2020-12-09T16:15:50.865Z</updated>
     
@@ -156,17 +156,17 @@
     
     
     
-    <category term="bootstrap3" scheme="https://mufengs.github.io/categories/bootstrap3/"/>
+    <category term="bootstrap3" scheme="https://moofing.gitee.io/categories/bootstrap3/"/>
     
     
-    <category term="栅格系统" scheme="https://mufengs.github.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
+    <category term="栅格系统" scheme="https://moofing.gitee.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>栅格响应式工具</title>
-    <link href="https://mufengs.github.io/posts/a32ed02f.html"/>
-    <id>https://mufengs.github.io/posts/a32ed02f.html</id>
+    <link href="https://moofing.gitee.io/posts/a32ed02f.html"/>
+    <id>https://moofing.gitee.io/posts/a32ed02f.html</id>
     <published>2020-12-09T16:06:54.000Z</published>
     <updated>2020-12-09T16:44:09.142Z</updated>
     
@@ -181,17 +181,17 @@
     
     
     
-    <category term="bootstrap3" scheme="https://mufengs.github.io/categories/bootstrap3/"/>
+    <category term="bootstrap3" scheme="https://moofing.gitee.io/categories/bootstrap3/"/>
     
     
-    <category term="栅格系统" scheme="https://mufengs.github.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
+    <category term="栅格系统" scheme="https://moofing.gitee.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>AUTO与100%的分别</title>
-    <link href="https://mufengs.github.io/posts/4ec81550.html"/>
-    <id>https://mufengs.github.io/posts/4ec81550.html</id>
+    <link href="https://moofing.gitee.io/posts/4ec81550.html"/>
+    <id>https://moofing.gitee.io/posts/4ec81550.html</id>
     <published>2020-12-09T16:03:51.000Z</published>
     <updated>2020-12-09T16:43:57.287Z</updated>
     
@@ -202,17 +202,17 @@
     
     
     
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    <category term="CSS3" scheme="https://moofing.gitee.io/categories/CSS3/"/>
     
     
-    <category term="width" scheme="https://mufengs.github.io/tags/width/"/>
+    <category term="width" scheme="https://moofing.gitee.io/tags/width/"/>
     
   </entry>
   
   <entry>
     <title>栅格系统盒模型分析</title>
-    <link href="https://mufengs.github.io/posts/9877cb9d.html"/>
-    <id>https://mufengs.github.io/posts/9877cb9d.html</id>
+    <link href="https://moofing.gitee.io/posts/9877cb9d.html"/>
+    <id>https://moofing.gitee.io/posts/9877cb9d.html</id>
     <published>2020-12-09T16:01:53.000Z</published>
     <updated>2020-12-09T16:55:01.244Z</updated>
     
@@ -223,17 +223,17 @@
     
     
     
-    <category term="bootstrap3" scheme="https://mufengs.github.io/categories/bootstrap3/"/>
+    <category term="bootstrap3" scheme="https://moofing.gitee.io/categories/bootstrap3/"/>
     
     
-    <category term="栅格系统" scheme="https://mufengs.github.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
+    <category term="栅格系统" scheme="https://moofing.gitee.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>栅格系统源码解读</title>
-    <link href="https://mufengs.github.io/posts/eacda123.html"/>
-    <id>https://mufengs.github.io/posts/eacda123.html</id>
+    <link href="https://moofing.gitee.io/posts/eacda123.html"/>
+    <id>https://moofing.gitee.io/posts/eacda123.html</id>
     <published>2020-12-09T15:58:01.000Z</published>
     <updated>2020-12-09T16:58:52.315Z</updated>
     
@@ -244,17 +244,17 @@
     
     
     
-    <category term="bootstrap3" scheme="https://mufengs.github.io/categories/bootstrap3/"/>
+    <category term="bootstrap3" scheme="https://moofing.gitee.io/categories/bootstrap3/"/>
     
     
-    <category term="栅格系统" scheme="https://mufengs.github.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
+    <category term="栅格系统" scheme="https://moofing.gitee.io/tags/%E6%A0%85%E6%A0%BC%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>Less学习指南</title>
-    <link href="https://mufengs.github.io/posts/a9d5fddb.html"/>
-    <id>https://mufengs.github.io/posts/a9d5fddb.html</id>
+    <link href="https://moofing.gitee.io/posts/a9d5fddb.html"/>
+    <id>https://moofing.gitee.io/posts/a9d5fddb.html</id>
     <published>2020-12-01T12:16:10.000Z</published>
     <updated>2020-12-06T02:56:36.779Z</updated>
     
@@ -269,15 +269,15 @@
     
     
     
-    <category term="Less" scheme="https://mufengs.github.io/categories/Less/"/>
+    <category term="Less" scheme="https://moofing.gitee.io/categories/Less/"/>
     
     
   </entry>
   
   <entry>
     <title>CARDS主题 &amp; 导航栏样式修改</title>
-    <link href="https://mufengs.github.io/posts/43277.html"/>
-    <id>https://mufengs.github.io/posts/43277.html</id>
+    <link href="https://moofing.gitee.io/posts/43277.html"/>
+    <id>https://moofing.gitee.io/posts/43277.html</id>
     <published>2020-11-28T15:38:38.000Z</published>
     <updated>2020-11-30T06:52:24.251Z</updated>
     
@@ -288,19 +288,19 @@
     
     
     
-    <category term="HEXO" scheme="https://mufengs.github.io/categories/HEXO/"/>
+    <category term="HEXO" scheme="https://moofing.gitee.io/categories/HEXO/"/>
     
-    <category term="原创" scheme="https://mufengs.github.io/categories/HEXO/%E5%8E%9F%E5%88%9B/"/>
+    <category term="原创" scheme="https://moofing.gitee.io/categories/HEXO/%E5%8E%9F%E5%88%9B/"/>
     
     
-    <category term="hexo主题样式修改" scheme="https://mufengs.github.io/tags/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E4%BF%AE%E6%94%B9/"/>
+    <category term="hexo主题样式修改" scheme="https://moofing.gitee.io/tags/hexo%E4%B8%BB%E9%A2%98%E6%A0%B7%E5%BC%8F%E4%BF%AE%E6%94%B9/"/>
     
   </entry>
   
   <entry>
     <title>HEXO &amp; CARDS主题进阶配置</title>
-    <link href="https://mufengs.github.io/posts/40862.html"/>
-    <id>https://mufengs.github.io/posts/40862.html</id>
+    <link href="https://moofing.gitee.io/posts/40862.html"/>
+    <id>https://moofing.gitee.io/posts/40862.html</id>
     <published>2020-11-28T13:09:24.000Z</published>
     <updated>2020-11-30T06:52:13.591Z</updated>
     
@@ -316,19 +316,19 @@
     
     
     
-    <category term="HEXO" scheme="https://mufengs.github.io/categories/HEXO/"/>
+    <category term="HEXO" scheme="https://moofing.gitee.io/categories/HEXO/"/>
     
-    <category term="原创" scheme="https://mufengs.github.io/categories/HEXO/%E5%8E%9F%E5%88%9B/"/>
+    <category term="原创" scheme="https://moofing.gitee.io/categories/HEXO/%E5%8E%9F%E5%88%9B/"/>
     
     
-    <category term="hexo主题配置" scheme="https://mufengs.github.io/tags/hexo%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    <category term="hexo主题配置" scheme="https://moofing.gitee.io/tags/hexo%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>HEXO &amp; 给博客添加RSS</title>
-    <link href="https://mufengs.github.io/posts/60340.html"/>
-    <id>https://mufengs.github.io/posts/60340.html</id>
+    <link href="https://moofing.gitee.io/posts/60340.html"/>
+    <id>https://moofing.gitee.io/posts/60340.html</id>
     <published>2020-11-27T09:58:54.000Z</published>
     <updated>2020-11-30T06:45:20.821Z</updated>
     
@@ -343,17 +343,17 @@
     
     
     
-    <category term="HEXO" scheme="https://mufengs.github.io/categories/HEXO/"/>
+    <category term="HEXO" scheme="https://moofing.gitee.io/categories/HEXO/"/>
     
     
-    <category term="hexo主题配置" scheme="https://mufengs.github.io/tags/hexo%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    <category term="hexo主题配置" scheme="https://moofing.gitee.io/tags/hexo%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>何为flex布局？</title>
-    <link href="https://mufengs.github.io/posts/22461.html"/>
-    <id>https://mufengs.github.io/posts/22461.html</id>
+    <link href="https://moofing.gitee.io/posts/22461.html"/>
+    <id>https://moofing.gitee.io/posts/22461.html</id>
     <published>2020-11-26T10:26:46.000Z</published>
     <updated>2020-11-30T06:45:19.376Z</updated>
     
@@ -369,17 +369,17 @@
     
     
     
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    <category term="CSS3" scheme="https://moofing.gitee.io/categories/CSS3/"/>
     
     
-    <category term="flex" scheme="https://mufengs.github.io/tags/flex/"/>
+    <category term="flex" scheme="https://moofing.gitee.io/tags/flex/"/>
     
   </entry>
   
   <entry>
     <title>全面了解transform属性</title>
-    <link href="https://mufengs.github.io/posts/45772.html"/>
-    <id>https://mufengs.github.io/posts/45772.html</id>
+    <link href="https://moofing.gitee.io/posts/45772.html"/>
+    <id>https://moofing.gitee.io/posts/45772.html</id>
     <published>2020-11-26T09:58:00.000Z</published>
     <updated>2020-11-30T06:44:53.964Z</updated>
     
@@ -395,17 +395,17 @@
     
     
     
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    <category term="CSS3" scheme="https://moofing.gitee.io/categories/CSS3/"/>
     
     
-    <category term="transform" scheme="https://mufengs.github.io/tags/transform/"/>
+    <category term="transform" scheme="https://moofing.gitee.io/tags/transform/"/>
     
   </entry>
   
   <entry>
     <title>CSS3 resize属性</title>
-    <link href="https://mufengs.github.io/posts/37811.html"/>
-    <id>https://mufengs.github.io/posts/37811.html</id>
+    <link href="https://moofing.gitee.io/posts/37811.html"/>
+    <id>https://moofing.gitee.io/posts/37811.html</id>
     <published>2020-11-21T07:50:12.000Z</published>
     <updated>2020-11-30T06:45:08.485Z</updated>
     
@@ -422,17 +422,17 @@
     
     
     
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    <category term="CSS3" scheme="https://moofing.gitee.io/categories/CSS3/"/>
     
     
-    <category term="resize" scheme="https://mufengs.github.io/tags/resize/"/>
+    <category term="resize" scheme="https://moofing.gitee.io/tags/resize/"/>
     
   </entry>
   
   <entry>
     <title>利用伪类选择器:target制作多Tab切换效果</title>
-    <link href="https://mufengs.github.io/posts/4017.html"/>
-    <id>https://mufengs.github.io/posts/4017.html</id>
+    <link href="https://moofing.gitee.io/posts/4017.html"/>
+    <id>https://moofing.gitee.io/posts/4017.html</id>
     <published>2020-11-21T06:23:16.000Z</published>
     <updated>2020-12-16T13:39:15.317Z</updated>
     
@@ -447,17 +447,17 @@
     
     
     
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    <category term="CSS3" scheme="https://moofing.gitee.io/categories/CSS3/"/>
     
     
-    <category term=":target" scheme="https://mufengs.github.io/tags/target/"/>
+    <category term=":target" scheme="https://moofing.gitee.io/tags/target/"/>
     
   </entry>
   
   <entry>
     <title>CSS3综合案例三</title>
-    <link href="https://mufengs.github.io/posts/30376.html"/>
-    <id>https://mufengs.github.io/posts/30376.html</id>
+    <link href="https://moofing.gitee.io/posts/30376.html"/>
+    <id>https://moofing.gitee.io/posts/30376.html</id>
     <published>2020-11-18T02:30:17.000Z</published>
     <updated>2020-11-30T06:45:14.125Z</updated>
     
@@ -471,18 +471,18 @@
     
     
     
-    <category term="CSS3" scheme="https://mufengs.github.io/categories/CSS3/"/>
+    <category term="CSS3" scheme="https://moofing.gitee.io/categories/CSS3/"/>
     
     
-    <category term="transition" scheme="https://mufengs.github.io/tags/transition/"/>
+    <category term="transition" scheme="https://moofing.gitee.io/tags/transition/"/>
     
-    <category term="border-radius" scheme="https://mufengs.github.io/tags/border-radius/"/>
+    <category term="border-radius" scheme="https://moofing.gitee.io/tags/border-radius/"/>
     
-    <category term="relative" scheme="https://mufengs.github.io/tags/relative/"/>
+    <category term="relative" scheme="https://moofing.gitee.io/tags/relative/"/>
     
-    <category term="absolute" scheme="https://mufengs.github.io/tags/absolute/"/>
+    <category term="absolute" scheme="https://moofing.gitee.io/tags/absolute/"/>
     
-    <category term="text-decoration" scheme="https://mufengs.github.io/tags/text-decoration/"/>
+    <category term="text-decoration" scheme="https://moofing.gitee.io/tags/text-decoration/"/>
     
   </entry>
   
